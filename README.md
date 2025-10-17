@@ -11,9 +11,7 @@ Se trabajó con el dataset `dataset_train_val.csv`, que tiene las siguientes col
 
 - `text`, `is_rumor`, `user.handle`, `topic`.  
 
-Durante el preprocesamiento:
-
-Se verificaron valores faltantes:  
+Durante el preprocesamiento se verificaron valores faltantes:  
    - `is_rumor` y `user.handle` tenían 2 valores nulos.  
    - `topic` tenía 12.126 valores nulos.  
 
@@ -39,7 +37,7 @@ Como los algoritmos de Machine Learning no entienden texto directamente. Se util
 
 ---
 
-## Para el entrenamiento del modelo se utilizó **Regresión Logística**:
+## Para el entrenamiento del modelo se utilizó **Regresión Logística**
 
 ---
 
